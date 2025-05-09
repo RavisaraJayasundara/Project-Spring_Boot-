@@ -2,8 +2,8 @@ package ac.lk.vau.fas.ict.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import ac.lk.vau.fas.ict.model.user;
+import ac.lk.vau.fas.ict.model.User;
 
-public interface userRepository extends JpaRepository<user,Long>{
+public interface UserRepository extends JpaRepository<User,Long>{
 
 }
